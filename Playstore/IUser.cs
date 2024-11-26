@@ -15,5 +15,13 @@ namespace Playstore
         void DeleteUser();
         void GetUser();
 
+      
+
     }
+    public abstract class absCl
+    {
+        public abstract void AddUser();
+       
+    }
+
 }
